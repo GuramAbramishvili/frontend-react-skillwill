@@ -9,7 +9,8 @@
 შექმენი შემდეგი სტრუქტურა JS -ის
 გამოყენებით და დაამატე DOM-ში:
 
-```<div id=”card”>
+```
+<div id=”card”>
 <h2>Gandalf</h2>
 <a href=”#”>Go to profile</a>
 </div>
