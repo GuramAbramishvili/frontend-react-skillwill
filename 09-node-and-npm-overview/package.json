@@ -1,0 +1,15 @@
+{
+  "name": "09-node-and-npm-overview",
+  "version": "1.0.0",
+  "description": "node-and-npm-overview",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guram Abramishvili",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.11.0"
+  },
+  "type": "module"
+}
