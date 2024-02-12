@@ -1,0 +1,80 @@
+.toDoForm{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 350px;
+}
+
+.formBtn{
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.formBtn:hover{
+    background-color: #00d4ff;
+}
+
+.formInput{
+    border: 1px solid grey;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.getBtn{
+    width: 350px;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.getBtn:hover{
+    background-color: #00d4ff;
+}
+
+
+
+.taskP{
+    width: 250px;
+    font-size: 17px;
+    color: black;
+}
+
+.editBtn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #00d4ff;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.editBtn:hover{
+    background-color: #7783c9;
+    color:white;
+}
+
+
+.taskBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    border-left: 4px solid red;
+    border-radius: 4px;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+}
