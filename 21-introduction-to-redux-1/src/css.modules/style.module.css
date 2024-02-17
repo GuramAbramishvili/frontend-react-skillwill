@@ -1,0 +1,25 @@
+.taskWrapper{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.buttonWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.buttonItem{
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
