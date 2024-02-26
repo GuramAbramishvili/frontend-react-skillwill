@@ -1,0 +1,53 @@
+.taskWrapper{
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-left: 3px solid blue;
+    border-radius: 5px;
+    background-color: rgb(61, 238, 194);
+}
+
+.taskBtn{
+    margin: 10px;
+}
+
+
+.toDoForm{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 350px;
+}
+
+.formBtn{
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.formBtn:hover{
+    background-color: #00d4ff;
+}
+
+.formInput{
+    border: 1px solid grey;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.linkWrapper{
+    display: flex;
+    justify-content: center;
+}
+.links {
+    margin: 10px
+}
